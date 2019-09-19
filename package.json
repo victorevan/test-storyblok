@@ -5,7 +5,7 @@
 	"scripts": {
 		"dev": "node server.js",
 		"dev:debug": "node --inspect server.js",
-		"build": "next build && next export",
+		"build": "next build && next export && cd ./out",
 		"export": "next export",
 		"start": "NODE_ENV=production node server.js"
 	},
